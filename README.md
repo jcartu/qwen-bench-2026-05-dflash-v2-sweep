@@ -1,5 +1,9 @@
 [![← qwen-bench hub](https://img.shields.io/badge/%E2%86%90-qwen--bench_hub-blue?style=for-the-badge)](https://github.com/jcartu/qwen-bench)
 
+<div align="center">
+<img src="docs/images/study_hero.png" alt="BF16+DFlash parameter sweep — a 3×3 grid and a num_spec cliff curve" width="100%" />
+</div>
+
 # Qwen3.6-27B BF16 + DFlash Parameter Sweep on `repne/vllm:v2`
 
 > Part of the [`qwen-bench`](https://github.com/jcartu/qwen-bench) hub.
@@ -105,6 +109,10 @@ metric format, easy to rank.
 
 ## Stage A — Buffer/graph heatmap
 
+<div align="center">
+<img src="docs/images/stage_a_section.png" alt="Stage A — a near-flat 3×3 grid with one starred winner cell" width="75%" />
+</div>
+
 Mean aggregate decode tok/s, num_spec=8 fixed:
 
 |                 | capture=64 | capture=128 | capture=256 |
@@ -123,6 +131,10 @@ BF16+DFlash at moderate concurrency.
 ---
 
 ## Stage B — Speculative-tokens sweep ★ The interesting axis
+
+<div align="center">
+<img src="docs/images/stage_b_section.png" alt="Stage B — four points with a sharp cliff at the right edge" width="75%" />
+</div>
 
 At Stage A winner (`batched=32768, capture=256`):
 
