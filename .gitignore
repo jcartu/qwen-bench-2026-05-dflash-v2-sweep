@@ -1,0 +1,12 @@
+# Per-config large blobs we don't need in repo
+configs/*/*/server.log
+logs/run_all_*.log
+logs/quality_rerun_*.log
+logs/smoke/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

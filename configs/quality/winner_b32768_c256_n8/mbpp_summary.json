@@ -1,0 +1,19 @@
+{
+  "config_label": "winner_b32768_c256_n8",
+  "benchmark": "mbpp",
+  "total_problems": 257,
+  "completed": 257,
+  "sprint_wall_time_s": 479.9834306240082,
+  "failure_mode_breakdown": {
+    "ok": 211,
+    "test_fail": 9,
+    "empty_response": 37
+  },
+  "pass_rate": 0.8210116731517509,
+  "mean_elapsed_s": 14.508512681560294,
+  "median_elapsed_s": 11.740644693374634,
+  "p95_elapsed_s": 33.486332416534424,
+  "mean_completion_tokens": 1966.2023346303502,
+  "mean_reasoning_chars": 5974.167315175097,
+  "effective_tps": 1052.773841261688
+}

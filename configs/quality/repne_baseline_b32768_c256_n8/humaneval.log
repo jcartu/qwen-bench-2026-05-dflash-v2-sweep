@@ -1,0 +1,179 @@
+[10:26:25] Stress harness starting
+  config: repne_baseline_b32768_c256_n8
+  benchmark: humaneval (164 problems)
+  endpoint: http://localhost:11435/v1/chat/completions
+  concurrency: 8
+  max_tokens: 4096
+  request_timeout: 300s
+  [  1/164] ✅ HumanEval/42 fr=stop t=8.1s
+  [  2/164] ✅ HumanEval/79 fr=stop t=11.1s
+  [  3/164] ✅ HumanEval/98 fr=stop t=13.1s
+  [  4/164] ✅ HumanEval/61 fr=stop t=13.6s
+  [  5/164] ✅ HumanEval/135 fr=stop t=14.6s
+  [  6/164] ❌ HumanEval/5 fr=stop t=17.9s
+  [  7/164] ✅ HumanEval/24 fr=stop t=22.6s
+  [  8/164] ✅ HumanEval/62 fr=stop t=12.7s
+  [  9/164] ✅ HumanEval/6 fr=stop t=16.3s
+  [ 10/164] ✅ HumanEval/153 fr=stop t=22.0s
+  [ 11/164] ✅ HumanEval/25 fr=stop t=17.1s
+  [ 12/164] ✅ HumanEval/43 fr=stop t=17.9s
+  [ 13/164] 🚨[empty_response] HumanEval/116 fr=length t=35.1s
+  [ 14/164] ✅ HumanEval/80 fr=stop t=18.0s
+  [ 15/164] ❌ HumanEval/7 fr=stop t=8.3s
+  [ 16/164] ✅ HumanEval/117 fr=stop t=14.8s
+  [ 17/164] ❌ HumanEval/26 fr=stop t=12.0s
+  [ 18/164] ✅ HumanEval/136 fr=stop t=17.5s
+  [ 19/164] ❌ HumanEval/44 fr=stop t=15.3s
+  [ 20/164] 🚨[empty_response] HumanEval/99 fr=length t=29.1s
+  [ 21/164] ✅ HumanEval/154 fr=stop t=21.7s
+  [ 22/164] ✅ HumanEval/100 fr=stop t=15.4s
+  [ 23/164] ✅ HumanEval/27 fr=stop t=5.8s
+  [ 24/164] ✅ HumanEval/63 fr=stop t=24.6s
+  [ 25/164] 🚨[empty_response] HumanEval/81 fr=length t=24.3s
+  [ 26/164] ❌ HumanEval/45 fr=stop t=7.6s
+  [ 27/164] ❌ HumanEval/8 fr=stop t=13.9s
+  [ 28/164] ✅ HumanEval/155 fr=stop t=15.7s
+  [ 29/164] ✅ HumanEval/137 fr=stop t=24.7s
+  [ 30/164] ✅ HumanEval/82 fr=stop t=9.7s
+  [ 31/164] ✅ HumanEval/118 fr=stop t=29.0s
+  [ 32/164] ✅ HumanEval/101 fr=stop t=12.1s
+  [ 33/164] ✅ HumanEval/28 fr=stop t=6.8s
+  [ 34/164] ❌ HumanEval/138 fr=stop t=13.2s
+  [ 35/164] ✅ HumanEval/156 fr=stop t=15.0s
+  [ 36/164] ✅ HumanEval/64 fr=stop t=24.9s
+  [ 37/164] ✅ HumanEval/119 fr=stop t=18.9s
+  [ 38/164] ✅ HumanEval/9 fr=stop t=19.5s
+  [ 39/164] ❌ HumanEval/157 fr=stop t=10.7s
+  [ 40/164] ✅ HumanEval/102 fr=stop t=18.5s
+  [ 41/164] ✅ HumanEval/46 fr=stop t=25.7s
+  [ 42/164] ❌ HumanEval/65 fr=stop t=24.3s
+  [ 43/164] ✅ HumanEval/139 fr=stop t=16.6s
+  [ 44/164] ✅ HumanEval/29 fr=stop t=7.3s
+  [ 45/164] ❌ HumanEval/47 fr=stop t=5.2s
+  [ 46/164] ✅ HumanEval/120 fr=stop t=23.0s
+  [ 47/164] ✅ HumanEval/83 fr=stop t=28.1s
+  [ 48/164] ✅ HumanEval/66 fr=stop t=12.8s
+  [ 49/164] ❌ HumanEval/10 fr=stop t=22.9s
+  [ 50/164] ❌ HumanEval/121 fr=stop t=11.6s
+  [ 51/164] ✅ HumanEval/84 fr=stop t=14.6s
+  [ 52/164] ✅ HumanEval/11 fr=stop t=11.2s
+  [ 53/164] ❌ HumanEval/30 fr=stop t=6.2s
+  [ 54/164] ✅ HumanEval/48 fr=stop t=12.3s
+  [ 55/164] ✅ HumanEval/103 fr=stop t=27.8s
+  [ 56/164] ✅ HumanEval/85 fr=stop t=13.8s
+  [ 57/164] ✅ HumanEval/158 fr=stop t=24.6s
+  [ 58/164] ✅ HumanEval/67 fr=stop t=17.9s
+  [ 59/164] ✅ HumanEval/104 fr=stop t=17.0s
+  [ 60/164] ✅ HumanEval/140 fr=stop t=31.1s
+  [ 61/164] ✅ HumanEval/159 fr=stop t=7.3s
+  [ 62/164] ❌ HumanEval/122 fr=stop t=19.4s
+  [ 63/164] ✅ HumanEval/31 fr=stop t=12.4s
+  [ 64/164] ❌ HumanEval/12 fr=stop t=14.9s
+  [ 65/164] ❌ HumanEval/49 fr=stop t=11.6s
+  [ 66/164] ✅ HumanEval/68 fr=stop t=18.6s
+  [ 67/164] ❌ HumanEval/141 fr=length t=29.2s
+  [ 68/164] ✅ HumanEval/105 fr=stop t=19.7s
+  [ 69/164] ✅ HumanEval/13 fr=stop t=11.0s
+  [ 70/164] ❌ HumanEval/86 fr=stop t=22.7s
+  [ 71/164] ✅ HumanEval/142 fr=stop t=17.1s
+  [ 72/164] ✅ HumanEval/123 fr=stop t=22.5s
+  [ 73/164] ❌ HumanEval/50 fr=stop t=10.5s
+  [ 74/164] ❌ HumanEval/160 fr=stop t=23.3s
+  [ 75/164] ❌ HumanEval/124 fr=stop t=11.0s
+  [ 76/164] ❌ HumanEval/14 fr=stop t=6.2s
+  [ 77/164] ✅ HumanEval/106 fr=stop t=16.2s
+  [ 78/164] ✅ HumanEval/69 fr=stop t=18.9s
+  [ 79/164] ✅ HumanEval/143 fr=stop t=15.2s
+  [ 80/164] ❌ HumanEval/87 fr=stop t=25.8s
+  [ 81/164] ✅ HumanEval/51 fr=stop t=8.3s
+  [ 82/164] ❌ HumanEval/161 fr=stop t=18.8s
+  [ 83/164] 🚨[empty_response] HumanEval/32 fr=length t=36.4s
+  [ 84/164] ✅ HumanEval/70 fr=stop t=19.5s
+  [ 85/164] ✅ HumanEval/107 fr=stop t=14.8s
+  [ 86/164] ✅ HumanEval/33 fr=stop t=20.0s
+  [ 87/164] ❌ HumanEval/34 fr=stop t=3.9s
+  [ 88/164] ✅ HumanEval/162 fr=stop t=13.2s
+  [ 89/164] ❌ HumanEval/52 fr=stop t=7.3s
+  [ 90/164] ✅ HumanEval/88 fr=stop t=23.9s
+  [ 91/164] ❌ HumanEval/15 fr=stop t=13.5s
+  [ 92/164] ✅ HumanEval/144 fr=stop t=21.2s
+  [ 93/164] 🚨[empty_response] HumanEval/125 fr=length t=31.0s
+  [ 94/164] ✅ HumanEval/71 fr=stop t=20.4s
+  [ 95/164] ✅ HumanEval/16 fr=stop t=11.4s
+  [ 96/164] ✅ HumanEval/89 fr=stop t=23.7s
+  [ 97/164] ✅ HumanEval/108 fr=stop t=24.9s
+  [ 98/164] ✅ HumanEval/35 fr=stop t=12.0s
+  [ 99/164] ✅ HumanEval/72 fr=stop t=11.8s
+  [100/164] ❌ HumanEval/53 fr=stop t=12.9s
+  [101/164] ❌ HumanEval/145 fr=stop t=31.9s
+  [102/164] 🚨[empty_response] HumanEval/126 fr=length t=32.7s
+  [103/164] ❌ HumanEval/163 fr=stop t=27.4s
+  [104/164] ✅ HumanEval/90 fr=stop t=14.2s
+  [105/164] ✅ HumanEval/17 fr=stop t=9.6s
+  [106/164] ❌ HumanEval/54 fr=stop t=10.1s
+  [107/164] ✅ HumanEval/73 fr=stop t=12.1s
+  [108/164] ✅ HumanEval/109 fr=stop t=26.6s
+  [109/164] ✅ HumanEval/36 fr=stop t=19.4s
+  [110/164] ✅ HumanEval/127 fr=stop t=26.3s
+  [111/164] ✅ HumanEval/146 fr=stop t=29.2s
+  [112/164] ✅ HumanEval/110 fr=stop t=19.4s
+  [113/164] ✅ HumanEval/37 fr=stop t=14.8s
+  [114/164] ❌ HumanEval/18 fr=stop t=16.9s
+  [115/164] ✅ HumanEval/55 fr=stop t=10.2s
+  [116/164] ❌ HumanEval/128 fr=stop t=27.7s
+  [117/164] 🚨[empty_response] HumanEval/91 fr=length t=38.9s
+  [118/164] 🚨[empty_response] HumanEval/147 fr=length t=28.9s
+  [119/164] ✅ HumanEval/0 fr=stop t=23.5s
+  [120/164] ✅ HumanEval/74 fr=stop t=25.3s
+  [121/164] ✅ HumanEval/148 fr=stop t=16.6s
+  [122/164] ❌ HumanEval/92 fr=stop t=20.2s
+  [123/164] ✅ HumanEval/56 fr=stop t=16.4s
+  [124/164] ❌ HumanEval/38 fr=stop t=15.6s
+  [125/164] ✅ HumanEval/111 fr=stop t=23.7s
+  [126/164] ✅ HumanEval/19 fr=stop t=16.4s
+  [127/164] ❌ HumanEval/112 fr=stop t=12.7s
+  [128/164] 🚨[empty_response] HumanEval/129 fr=length t=35.1s
+  [129/164] ✅ HumanEval/75 fr=stop t=30.5s
+  [130/164] ✅ HumanEval/149 fr=stop t=14.8s
+  [131/164] ✅ HumanEval/1 fr=stop t=26.0s
+  [132/164] ✅ HumanEval/2 fr=stop t=14.0s
+  [133/164] 🚨[empty_response] HumanEval/130 fr=length t=29.7s
+  [134/164] 🚨[empty_response] HumanEval/93 fr=length t=34.2s
+  [135/164] ❌ HumanEval/20 fr=stop t=24.2s
+  [136/164] ✅ HumanEval/57 fr=stop t=22.9s
+  [137/164] ✅ HumanEval/131 fr=stop t=12.9s
+  [138/164] ✅ HumanEval/94 fr=stop t=20.6s
+  [139/164] ✅ HumanEval/3 fr=stop t=8.7s
+  [140/164] 🚨[empty_response] HumanEval/39 fr=length t=34.7s
+  [141/164] 🚨[empty_response] HumanEval/76 fr=length t=31.6s
+  [142/164] ✅ HumanEval/150 fr=stop t=16.5s
+  [143/164] ✅ HumanEval/21 fr=stop t=17.3s
+  [144/164] 🚨[empty_response] HumanEval/113 fr=length t=26.7s
+  [145/164] ✅ HumanEval/58 fr=stop t=9.5s
+  [146/164] ❌ HumanEval/4 fr=stop t=12.5s
+  [147/164] ✅ HumanEval/114 fr=stop t=20.0s
+  [148/164] ❌ HumanEval/22 fr=stop t=16.1s
+  [149/164] ✅ HumanEval/40 fr=stop t=28.2s
+  [150/164] ✅ HumanEval/77 fr=stop t=28.6s
+  [151/164] ✅ HumanEval/41 fr=stop t=12.8s
+  [152/164] ❌ HumanEval/151 fr=stop t=28.0s
+  [153/164] 🚨[empty_response] HumanEval/95 fr=length t=31.9s
+  [154/164] ✅ HumanEval/78 fr=stop t=11.3s
+  [155/164] 🚨[empty_response] HumanEval/132 fr=length t=39.0s
+  [156/164] ✅ HumanEval/96 fr=stop t=17.5s
+  [157/164] ✅ HumanEval/23 fr=stop t=10.4s
+  [158/164] ✅ HumanEval/60 fr=stop t=11.8s
+  [159/164] ✅ HumanEval/133 fr=stop t=14.4s
+  [160/164] ✅ HumanEval/152 fr=stop t=15.4s
+  [161/164] ✅ HumanEval/59 fr=stop t=27.2s
+  [162/164] ✅ HumanEval/97 fr=stop t=10.0s
+  [163/164] 🚨[empty_response] HumanEval/115 fr=length t=24.8s
+  [164/164] ✅ HumanEval/134 fr=stop t=22.1s
+
+[10:33:02] DONE in 396.9s (6.6 min)
+  Pass rate: 107/164 = 65.2%
+  Failure modes: {'ok': 107, 'test_fail': 40, 'empty_response': 17}
+  Mean elapsed: 18.7s, p95: 31.9s
+  Effective tok/s: 1054.2
+  Saved: /tmp/qwen-bench-2026-05-dflash-v2-sweep/configs/quality/repne_baseline_b32768_c256_n8/humaneval.jsonl
+  Summary: /tmp/qwen-bench-2026-05-dflash-v2-sweep/configs/quality/repne_baseline_b32768_c256_n8/humaneval_summary.json

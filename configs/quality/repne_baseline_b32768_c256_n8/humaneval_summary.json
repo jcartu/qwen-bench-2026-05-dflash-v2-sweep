@@ -1,0 +1,19 @@
+{
+  "config_label": "repne_baseline_b32768_c256_n8",
+  "benchmark": "humaneval",
+  "total_problems": 164,
+  "completed": 164,
+  "sprint_wall_time_s": 396.9458556175232,
+  "failure_mode_breakdown": {
+    "ok": 107,
+    "test_fail": 40,
+    "empty_response": 17
+  },
+  "pass_rate": 0.6524390243902439,
+  "mean_elapsed_s": 18.685042481596877,
+  "median_elapsed_s": 17.225908994674683,
+  "p95_elapsed_s": 31.9258816242218,
+  "mean_completion_tokens": 2551.512195121951,
+  "mean_reasoning_chars": 8247.463414634147,
+  "effective_tps": 1054.1689605224024
+}

@@ -1,0 +1,19 @@
+{
+  "config_label": "winner_b32768_c256_n8",
+  "benchmark": "humaneval",
+  "total_problems": 164,
+  "completed": 164,
+  "sprint_wall_time_s": 396.8225739002228,
+  "failure_mode_breakdown": {
+    "ok": 96,
+    "test_fail": 49,
+    "empty_response": 19
+  },
+  "pass_rate": 0.5853658536585366,
+  "mean_elapsed_s": 18.36325147820682,
+  "median_elapsed_s": 17.854790210723877,
+  "p95_elapsed_s": 31.194626808166504,
+  "mean_completion_tokens": 2566.7865853658536,
+  "mean_reasoning_chars": 8287.664634146342,
+  "effective_tps": 1060.8091063535226
+}
