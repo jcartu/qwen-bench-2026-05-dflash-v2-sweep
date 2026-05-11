@@ -1,3 +1,5 @@
+[![← qwen-bench hub](https://img.shields.io/badge/%E2%86%90-qwen--bench_hub-blue?style=for-the-badge)](https://github.com/jcartu/qwen-bench)
+
 # Qwen3.6-27B BF16 + DFlash Parameter Sweep on `repne/vllm:v2`
 
 > Part of the [`qwen-bench`](https://github.com/jcartu/qwen-bench) hub.
